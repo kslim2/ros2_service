@@ -1,0 +1,41 @@
+[1.580s] Invoking command in '/home/mike/ros2_cool/03-service/dev_ws/src/learn_service': AMENT_PREFIX_PATH=/home/mike/ros2_cool/03-service/dev_ws/install/learn_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mike/ros2_cool/03-service/dev_ws/install/learn_interface LD_LIBRARY_PATH=/home/mike/ros2_cool/03-service/dev_ws/install/learn_interface/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mike/ros2_cool/03-service/dev_ws/install/learn_service/lib/python3.10/site-packages:/home/mike/ros2_cool/03-service/dev_ws/install/learn_interface/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/learn_service build --build-base /home/mike/ros2_cool/03-service/dev_ws/build/learn_service/build install --prefix /home/mike/ros2_cool/03-service/dev_ws/install/learn_service --record /home/mike/ros2_cool/03-service/dev_ws/build/learn_service/install.log --single-version-externally-managed
+[1.969s] running egg_info
+[1.970s] creating ../../build/learn_service/learn_service.egg-info
+[1.971s] writing ../../build/learn_service/learn_service.egg-info/PKG-INFO
+[1.971s] writing dependency_links to ../../build/learn_service/learn_service.egg-info/dependency_links.txt
+[1.972s] writing entry points to ../../build/learn_service/learn_service.egg-info/entry_points.txt
+[1.973s] writing requirements to ../../build/learn_service/learn_service.egg-info/requires.txt
+[1.973s] writing top-level names to ../../build/learn_service/learn_service.egg-info/top_level.txt
+[1.973s] writing manifest file '../../build/learn_service/learn_service.egg-info/SOURCES.txt'
+[1.976s] reading manifest file '../../build/learn_service/learn_service.egg-info/SOURCES.txt'
+[1.977s] writing manifest file '../../build/learn_service/learn_service.egg-info/SOURCES.txt'
+[1.977s] running build
+[1.977s] running build_py
+[1.977s] creating /home/mike/ros2_cool/03-service/dev_ws/build/learn_service/build
+[1.978s] creating /home/mike/ros2_cool/03-service/dev_ws/build/learn_service/build/lib
+[1.978s] creating /home/mike/ros2_cool/03-service/dev_ws/build/learn_service/build/lib/learn_service
+[1.978s] copying learn_service/service_adder_server.py -> /home/mike/ros2_cool/03-service/dev_ws/build/learn_service/build/lib/learn_service
+[1.979s] copying learn_service/service_adder_client.py -> /home/mike/ros2_cool/03-service/dev_ws/build/learn_service/build/lib/learn_service
+[1.979s] copying learn_service/__init__.py -> /home/mike/ros2_cool/03-service/dev_ws/build/learn_service/build/lib/learn_service
+[1.979s] running install
+[1.980s] running install_lib
+[1.981s] creating /home/mike/ros2_cool/03-service/dev_ws/install/learn_service/lib/python3.10/site-packages/learn_service
+[1.981s] copying /home/mike/ros2_cool/03-service/dev_ws/build/learn_service/build/lib/learn_service/service_adder_server.py -> /home/mike/ros2_cool/03-service/dev_ws/install/learn_service/lib/python3.10/site-packages/learn_service
+[1.982s] copying /home/mike/ros2_cool/03-service/dev_ws/build/learn_service/build/lib/learn_service/service_adder_client.py -> /home/mike/ros2_cool/03-service/dev_ws/install/learn_service/lib/python3.10/site-packages/learn_service
+[1.982s] copying /home/mike/ros2_cool/03-service/dev_ws/build/learn_service/build/lib/learn_service/__init__.py -> /home/mike/ros2_cool/03-service/dev_ws/install/learn_service/lib/python3.10/site-packages/learn_service
+[1.983s] byte-compiling /home/mike/ros2_cool/03-service/dev_ws/install/learn_service/lib/python3.10/site-packages/learn_service/service_adder_server.py to service_adder_server.cpython-310.pyc
+[1.984s] byte-compiling /home/mike/ros2_cool/03-service/dev_ws/install/learn_service/lib/python3.10/site-packages/learn_service/service_adder_client.py to service_adder_client.cpython-310.pyc
+[1.984s] byte-compiling /home/mike/ros2_cool/03-service/dev_ws/install/learn_service/lib/python3.10/site-packages/learn_service/__init__.py to __init__.cpython-310.pyc
+[1.985s] running install_data
+[1.986s] creating /home/mike/ros2_cool/03-service/dev_ws/install/learn_service/share/ament_index
+[1.986s] creating /home/mike/ros2_cool/03-service/dev_ws/install/learn_service/share/ament_index/resource_index
+[1.987s] creating /home/mike/ros2_cool/03-service/dev_ws/install/learn_service/share/ament_index/resource_index/packages
+[1.987s] copying resource/learn_service -> /home/mike/ros2_cool/03-service/dev_ws/install/learn_service/share/ament_index/resource_index/packages
+[1.987s] copying package.xml -> /home/mike/ros2_cool/03-service/dev_ws/install/learn_service/share/learn_service
+[1.987s] running install_egg_info
+[1.990s] Copying ../../build/learn_service/learn_service.egg-info to /home/mike/ros2_cool/03-service/dev_ws/install/learn_service/lib/python3.10/site-packages/learn_service-0.0.0-py3.10.egg-info
+[1.994s] running install_scripts
+[2.019s] Installing service_adder_client script to /home/mike/ros2_cool/03-service/dev_ws/install/learn_service/lib/learn_service
+[2.020s] Installing service_adder_server script to /home/mike/ros2_cool/03-service/dev_ws/install/learn_service/lib/learn_service
+[2.021s] writing list of installed files to '/home/mike/ros2_cool/03-service/dev_ws/build/learn_service/install.log'
+[2.062s] Invoked command in '/home/mike/ros2_cool/03-service/dev_ws/src/learn_service' returned '0': AMENT_PREFIX_PATH=/home/mike/ros2_cool/03-service/dev_ws/install/learn_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mike/ros2_cool/03-service/dev_ws/install/learn_interface LD_LIBRARY_PATH=/home/mike/ros2_cool/03-service/dev_ws/install/learn_interface/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mike/ros2_cool/03-service/dev_ws/install/learn_service/lib/python3.10/site-packages:/home/mike/ros2_cool/03-service/dev_ws/install/learn_interface/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/learn_service build --build-base /home/mike/ros2_cool/03-service/dev_ws/build/learn_service/build install --prefix /home/mike/ros2_cool/03-service/dev_ws/install/learn_service --record /home/mike/ros2_cool/03-service/dev_ws/build/learn_service/install.log --single-version-externally-managed

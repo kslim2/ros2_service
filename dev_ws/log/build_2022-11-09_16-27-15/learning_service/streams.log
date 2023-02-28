@@ -1,0 +1,22 @@
+[0.769s] Invoking command in '/home/mike/ros2_cool/03-service/dev_ws/src/learning_service': PYTHONPATH=/home/mike/ros2_cool/03-service/dev_ws/install/learning_service/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/learning_service build --build-base /home/mike/ros2_cool/03-service/dev_ws/build/learning_service/build install --prefix /home/mike/ros2_cool/03-service/dev_ws/install/learning_service --record /home/mike/ros2_cool/03-service/dev_ws/build/learning_service/install.log --single-version-externally-managed
+[1.059s] running egg_info
+[1.059s] writing ../../build/learning_service/learning_service.egg-info/PKG-INFO
+[1.060s] writing dependency_links to ../../build/learning_service/learning_service.egg-info/dependency_links.txt
+[1.060s] writing entry points to ../../build/learning_service/learning_service.egg-info/entry_points.txt
+[1.061s] writing requirements to ../../build/learning_service/learning_service.egg-info/requires.txt
+[1.061s] writing top-level names to ../../build/learning_service/learning_service.egg-info/top_level.txt
+[1.062s] reading manifest file '../../build/learning_service/learning_service.egg-info/SOURCES.txt'
+[1.063s] writing manifest file '../../build/learning_service/learning_service.egg-info/SOURCES.txt'
+[1.064s] running build
+[1.064s] running build_py
+[1.064s] running install
+[1.065s] running install_lib
+[1.066s] running install_data
+[1.066s] running install_egg_info
+[1.068s] removing '/home/mike/ros2_cool/03-service/dev_ws/install/learning_service/lib/python3.10/site-packages/learning_service-0.0.0-py3.10.egg-info' (and everything under it)
+[1.068s] Copying ../../build/learning_service/learning_service.egg-info to /home/mike/ros2_cool/03-service/dev_ws/install/learning_service/lib/python3.10/site-packages/learning_service-0.0.0-py3.10.egg-info
+[1.070s] running install_scripts
+[1.091s] Installing service_adder_client script to /home/mike/ros2_cool/03-service/dev_ws/install/learning_service/lib/learning_service
+[1.091s] Installing service_adder_server script to /home/mike/ros2_cool/03-service/dev_ws/install/learning_service/lib/learning_service
+[1.091s] writing list of installed files to '/home/mike/ros2_cool/03-service/dev_ws/build/learning_service/install.log'
+[1.133s] Invoked command in '/home/mike/ros2_cool/03-service/dev_ws/src/learning_service' returned '0': PYTHONPATH=/home/mike/ros2_cool/03-service/dev_ws/install/learning_service/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/learning_service build --build-base /home/mike/ros2_cool/03-service/dev_ws/build/learning_service/build install --prefix /home/mike/ros2_cool/03-service/dev_ws/install/learning_service --record /home/mike/ros2_cool/03-service/dev_ws/build/learning_service/install.log --single-version-externally-managed

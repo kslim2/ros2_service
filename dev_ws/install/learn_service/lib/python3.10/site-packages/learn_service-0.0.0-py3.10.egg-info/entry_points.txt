@@ -1,0 +1,6 @@
+[console_scripts]
+service_adder_client = learn_service.service_adder_client:main
+service_adder_server = learn_service.service_adder_server:main
+service_object_client = learn_service.service_object_client:main
+service_object_server = learn_service.service_object_server:main
+

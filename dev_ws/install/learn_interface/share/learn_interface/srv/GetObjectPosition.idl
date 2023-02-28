@@ -1,0 +1,17 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from learn_interface/srv/GetObjectPosition.srv
+// generated code does not contain a copyright notice
+
+
+module learn_interface {
+  module srv {
+    struct GetObjectPosition_Request {
+      boolean get;
+    };
+    struct GetObjectPosition_Response {
+      int32 x;
+
+      int32 y;
+    };
+  };
+};
